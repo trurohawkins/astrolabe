@@ -16,7 +16,7 @@ def main(stdscr):
             return
         drawSolarSystem(stdscr)
         config.time += 1
-        #sleep(0.05)
+        sleep(0.05)
 
 if __name__ == "__main__":
     wrapper(main)

@@ -1,4 +1,5 @@
 time = 0
 
-Earth = {"name":"Earth", "char":'E', "height":1, "width":1, "radius":5, "velocity":0.05}
+Mercury= {"name":"Mercury", "char":'M', "height":1, "width":2, "radius":2, "velocity":0.01}
+Earth = {"name":"Earth", "char":'E', "height":1, "width":2, "radius":5, "velocity":0.05}
 

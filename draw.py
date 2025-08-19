@@ -8,6 +8,7 @@ def drawSolarSystem(stdscr):
     cx = width // 2
 
     stdscr.addstr(cy, cx, 'S')
+    drawPlanet(config.Mercury, stdscr)
     drawPlanet(config.Earth, stdscr)
 
     stdscr.refresh()
@@ -17,5 +18,5 @@ def drawPlanet(planet, stdscr):
     cy = height // 2
     cx = width // 2
 
-    angle, distance, x, y = Planet_Position(config.time, planet["radius"], 1, 1, cx, cy, planet["velocity"], 0)
+    angle, distance, x, y = Planet_Position(config.time, planet["radius"], planet["width"], planet["height"], cx, cy, planet["velocity"], 0)
     stdscr.addstr(int(y), int(x), planet["char"])
