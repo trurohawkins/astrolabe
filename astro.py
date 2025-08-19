@@ -12,11 +12,9 @@ intial phase, radians that detirmines planets starting position typically zero
 
 def Planet_Position(time,radius, width, height,  origin_x, origin_y, angular_v, intial_phase):
     
-    #Concert angular velocity scale to radians
-    radian_velocity = angular_v * math.pi
 
     #Calculate planetary anagle relative to Sun 
-    solar_angle = radian_velocity * time + intial_phase
+    solar_angle =  math.pi * (angular_v * time + intial_phase)
 
     #Calculate x,y coordiantes
     planet_x = origin_x + radius * width  * math.cos(solar_angle)
