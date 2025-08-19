@@ -11,7 +11,7 @@ def drawSolarSystem(stdscr):
     cy = height // 2
     cx = width // 2
 
-    stdscr.addstr(cy, cx, 'S')
+    stdscr.addstr(cy, cx, '☉')
     for planet_name, planet_data in config.solar_system.items():
         drawPlanet(planet_data, stdscr)
     stdscr.refresh()
