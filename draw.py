@@ -24,8 +24,8 @@ def drawPlanet(planet, stdscr):
     cy = height // 2
     cx = width // 2
     for i in range(720):
-        angle, distance, x, y = Planet_Position(i, planet["radius"], planet["width"], planet["height"], cx, cy, planet["angular_velocity"], 0)
+        angle, distance, x, y = Planet_Position(i, planet["radius"], planet["width"]*2, planet["height"], cx, cy, planet["angular_velocity"], 0)
         drawChar(stdscr, int(x), int(y), '.')
-    angle, distance, x, y = Planet_Position(config.time, planet["radius"], planet["width"], planet["height"], cx, cy, planet["angular_velocity"], 0)
+    angle, distance, x, y = Planet_Position(config.time, planet["radius"], planet["width"]*2, planet["height"], cx, cy, planet["angular_velocity"], 0)
     drawChar(stdscr, int(x), int(y), planet["char"])
 

@@ -2,64 +2,64 @@
       "Mercury": {
         "char": "☿",
         "height": 1,
-        "width": 2,
-        "radius": 2,
+        "width": 1,
+        "radius": 4,
         "angular_velocity": 0.08,
         "color": "gray"
       },
       "Venus": {
         "char": "♀", 
         "height": 1,
-        "width": 2,
-        "radius": 3,
+        "width": 1,
+        "radius": 7,
         "angular_velocity": 0.06,
         "color": "yellow"
       },
       "Earth": {
         "char": "⊕",
         "height": 1,
-        "width": 2,
-        "radius": 4,
+        "width": 1,
+        "radius": 10,
         "angular_velocity": 0.05,
         "color": "blue"
       },
       "Mars": {
         "char": "♂",
         "height": 1,
-        "width": 2,
-        "radius": 5,
+        "width": 1,
+        "radius": 13,
         "angular_velocity": 0.04,
         "color": "red"
       },
       "Jupiter": {
         "char": "♃",
         "height": 1,
-        "width": 2,
-        "radius": 7,
+        "width": 1,
+        "radius": 15,
         "angular_velocity": 0.02,
         "color": "orange"
       },
       "Saturn": {
         "char": "♄",
         "height": 1,
-        "width": 2,
-        "radius": 9,
+        "width": 1,
+        "radius": 18,
         "angular_velocity": 0.015,
         "color": "tan"
       },
       "Uranus": {
         "char": "♅",
         "height": 1,
-        "width": 2,
-        "radius": 11,
+        "width": 1,
+        "radius": 20,
         "angular_velocity": 0.01,
         "color": "lightblue"
       },
       "Pluto": {
         "char": "♇",
         "height": 1,
-        "width": 2,
-        "radius": 14,
+        "width": 1,
+        "radius": 23,
         "angular_velocity": 0.005,
         "color": "white"
       }
