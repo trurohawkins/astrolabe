@@ -1,6 +1,7 @@
 from curses import *
 from time import *
 
+import fileman
 import config
 from astro import *
 from draw import *
@@ -10,6 +11,7 @@ def main(stdscr):
     stdscr.nodelay(True)
     stdscr.clear()
     #stdscr.addstr(0, 0, "Hello sexy Boi")
+    print(config.solar_system)
     while True:
         key = stdscr.getch()
         if key == ord('q'):

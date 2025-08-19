@@ -1,28 +1,26 @@
 {
-    "Solar_System": {
       "Planet1": {
         "char": "1",
         "height": 1,
-        "width": 1,
-        "radius": 1,
-        "angular_velocity": 1,
+        "width": 2,
+        "radius": 2,
+        "angular_velocity": 0.05,
         "color": "gray"
       },
       "Planet2": {
         "char": "2",
         "height": 1,
-        "width": 1,
-        "radius": 2,
-        "angular_velocity": 1,
+        "width": 2,
+        "radius": 3,
+        "angular_velocity": 0.05,
         "color": "yellow"
       },
       "Planet3": {
         "char": "3",
         "height": 1,
-        "width": 1,
-        "radius": 3,
-        "angular_velocity": 1,
+        "width": 2,
+        "radius": 5,
+        "angular_velocity": 0.05,
         "color": "blue"
-      }
     }
   }

@@ -17,9 +17,6 @@ def load_solar_system(file_name):
     try:
         with open(file_name, 'r') as file:
             solar_system = json.load(file)
-        if 'Solar_System' not in solar_system:
-            print("Error: Invalid solar system file")
-            return None
         return solar_system
 
     except json.JSONDecodeError:
