@@ -2,6 +2,7 @@ from threading import *
 from queue import *
 from curses import *
 from control import *
+from astro import *
 
 def main(stdscr):
     stdscr.nodelay(True)

@@ -1,7 +1,8 @@
 import math
 
+Earth = {"name":"Earth", "char":'E', "height":1, "width":1, "radius":1, "velocity":0}
 
-def Planet_Position(time,radius height, width, origin_x, origin_y, angular_v, intial_phase):
+def Planet_Position(time,radius, height, width, origin_x, origin_y, angular_v, intial_phase):
     #Calculate planetary anagle relative to Sun 
     solar_angle = angular_v * time + intial_phase
 
