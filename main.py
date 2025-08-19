@@ -16,7 +16,6 @@ def main(stdscr):
             key = q.get()
             if key == ord('q'):
                 return
-            stdscr.clear()
             stdscr.addstr(0, 0, f"pressed {chr(key)}")
             stdscr.refresh()
 
