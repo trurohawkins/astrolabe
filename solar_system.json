@@ -1,26 +1,66 @@
 {
-      "Planet1": {
-        "char": "1",
+      "Mercury": {
+        "char": "M",
         "height": 1,
         "width": 2,
         "radius": 2,
-        "angular_velocity": 0.05,
+        "angular_velocity": 0.08,
         "color": "gray"
       },
-      "Planet2": {
-        "char": "2",
+      "Venus": {
+        "char": "V", 
         "height": 1,
         "width": 2,
         "radius": 3,
-        "angular_velocity": 0.05,
+        "angular_velocity": 0.06,
         "color": "yellow"
       },
-      "Planet3": {
-        "char": "3",
+      "Earth": {
+        "char": "E",
+        "height": 1,
+        "width": 2,
+        "radius": 4,
+        "angular_velocity": 0.05,
+        "color": "blue"
+      },
+      "Mars": {
+        "char": "R",
         "height": 1,
         "width": 2,
         "radius": 5,
-        "angular_velocity": 0.05,
-        "color": "blue"
-    }
+        "angular_velocity": 0.04,
+        "color": "red"
+      },
+      "Jupiter": {
+        "char": "J",
+        "height": 1,
+        "width": 2,
+        "radius": 7,
+        "angular_velocity": 0.02,
+        "color": "orange"
+      },
+      "Saturn": {
+        "char": "S",
+        "height": 1,
+        "width": 2,
+        "radius": 9,
+        "angular_velocity": 0.015,
+        "color": "tan"
+      },
+      "Uranus": {
+        "char": "U",
+        "height": 1,
+        "width": 2,
+        "radius": 11,
+        "angular_velocity": 0.01,
+        "color": "lightblue"
+      },
+      "Pluto": {
+        "char": "P",
+        "height": 1,
+        "width": 2,
+        "radius": 13,
+        "angular_velocity": 0.005,
+        "color": "white"
+      }
   }
