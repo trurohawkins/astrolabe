@@ -1,6 +1,7 @@
 from curses import *
 from time import *
 
+import config
 from astro import *
 from draw import *
 
@@ -14,7 +15,8 @@ def main(stdscr):
         if key == ord('q'):
             return
         drawSolarSystem(stdscr)
-        sleep(0.05)
+        config.time += 1
+        #sleep(0.05)
 
 if __name__ == "__main__":
     wrapper(main)

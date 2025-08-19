@@ -9,7 +9,6 @@ angular_v , angular velocity in radians per seconds
 intial phase, radians that detirmines planets starting position typically zero
 
 """
-Earth = {"name":"Earth", "char":'E', "height":1, "width":1, "radius":1, "velocity":10}
 
 def Planet_Position(time,radius, height, width, origin_x, origin_y, angular_v, intial_phase):
     
