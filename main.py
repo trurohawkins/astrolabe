@@ -10,6 +10,12 @@ def main(stdscr):
     curs_set(0)
     stdscr.nodelay(True)
     stdscr.clear()
+
+    height, width = stdscr.getmaxyx()
+    config.screenHeight = height
+    config.screenWidth = width
+    
+    
     #stdscr.addstr(0, 0, "Hello sexy Boi")
     print(config.solar_system)
     while True:

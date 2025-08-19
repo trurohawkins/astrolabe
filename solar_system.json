@@ -59,7 +59,7 @@
         "char": "♇",
         "height": 1,
         "width": 2,
-        "radius": 13,
+        "radius": 14,
         "angular_velocity": 0.005,
         "color": "white"
       }
