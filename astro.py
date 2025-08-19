@@ -14,7 +14,7 @@ Earth = {"name":"Earth", "char":'E', "height":1, "width":1, "radius":1, "velocit
 def Planet_Position(time,radius, height, width, origin_x, origin_y, angular_v, intial_phase):
     
     #Concert angular velocity scale to radians
-    radian_velocity = angular_v * math.pi()
+    radian_velocity = angular_v * math.pi
 
     #Calculate planetary anagle relative to Sun 
     solar_angle = radian_velocity * time + intial_phase

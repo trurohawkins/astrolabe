@@ -7,7 +7,6 @@ from draw import *
 def main(stdscr):
     curs_set(0)
     stdscr.nodelay(True)
-
     stdscr.clear()
     #stdscr.addstr(0, 0, "Hello sexy Boi")
     while True:
