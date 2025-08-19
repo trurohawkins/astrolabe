@@ -4,25 +4,25 @@
         "height": 1,
         "width": 1,
         "radius": 4,
-        "angular_velocity": 0.08,
+        "angular_velocity": 0.24,
         "color": "gray",
-        "initial_position": 0
+        "initial_position": 0.67
       },
       "Venus": {
         "char": "♀", 
         "height": 1,
         "width": 1,
         "radius": 7,
-        "angular_velocity": 0.06,
+        "angular_velocity": 0.15,
         "color": "yellow",
-        "initial_position": 0
+        "initial_position": 1.5
       },
       "Earth": {
         "char": "⊕",
         "height": 1,
         "width": 1,
         "radius": 10,
-        "angular_velocity": 0.05,
+        "angular_velocity": 0.10,
         "color": "blue",
         "initial_position": 0
       },
@@ -31,44 +31,44 @@
         "height": 1,
         "width": 1,
         "radius": 13,
-        "angular_velocity": 0.04,
+        "angular_velocity": 0.053,
         "color": "red",
-        "initial_position": 0
+        "initial_position": 0.57
       },
       "Jupiter": {
         "char": "♃",
         "height": 1,
         "width": 1,
         "radius": 15,
-        "angular_velocity": 0.02,
+        "angular_velocity": 0.0084,
         "color": "orange",
-        "initial_position": 0
+        "initial_position": 1.66
       },
       "Saturn": {
         "char": "♄",
         "height": 1,
         "width": 1,
         "radius": 18,
-        "angular_velocity": 0.015,
+        "angular_velocity": 0.0034,
         "color": "tan",
-        "initial_position": 0
+        "initial_position": 0.99
       },
       "Uranus": {
         "char": "♅",
         "height": 1,
         "width": 1,
         "radius": 20,
-        "angular_velocity": 0.01,
+        "angular_velocity": 0.0012,
         "color": "lightblue",
-        "initial_position": 0
+        "initial_position": 0.45
       },
       "Pluto": {
         "char": "♇",
         "height": 1,
         "width": 1,
         "radius": 23,
-        "angular_velocity": 0.005,
+        "angular_velocity": 0.004,
         "color": "white",
-        "initial_position": 0
+        "initial_position": 1.56
       }
   }
