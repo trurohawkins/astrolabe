@@ -23,7 +23,7 @@ def main(stdscr):
         if key == ord('q'):
             return
         drawSolarSystem(stdscr)
-        config.time += 1
+        config.time += 0.3 
         sleep(0.05)
 
 if __name__ == "__main__":
